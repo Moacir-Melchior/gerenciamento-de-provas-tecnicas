@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carmak · Painel de Provas</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-fx" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <button id="menuBtn" class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <img class="logo" src="assets/logo.png" alt="Carmak">
+    <span class="topbar-spacer"></span>
+  </header>
+
+  <div id="overlay" class="overlay"></div>
+  <nav id="sidebar" class="sidebar" aria-label="Navegação principal">
+    <p class="sidebar-title">Menu</p>
+    <a href="#inicio" data-route="inicio">Início</a>
+    <a href="#graficos" data-route="graficos">Gráficos</a>
+    <a href="#perfis" data-route="perfis">Perfis</a>
+    <a href="#administracao" data-route="administracao">Administração</a>
+  </nav>
+
+  <main class="page">
+
+    <!-- INÍCIO -->
+    <section id="view-inicio" class="view">
+      <div class="card">
+        <div class="card-head"><h1>Painel de Provas</h1></div>
+        <div class="card-body">
+          <div class="kpis">
+            <div class="kpi"><span class="kpi-label">Média geral das notas</span><strong id="kpiMedia">–</strong><small id="kpiTotal"></small></div>
+            <div class="kpi ok"><span class="kpi-label">Aprovadas (nota ≥ 7,0)</span><strong id="kpiAprov">–</strong><small id="kpiAprovPct"></small></div>
+            <div class="kpi bad"><span class="kpi-label">Reprovadas (nota &lt; 7,0)</span><strong id="kpiReprov">–</strong><small id="kpiReprovPct"></small></div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Média geral por prova</h2>
+      <div id="tipoCards" class="tipo-grid"></div>
+    </section>
+
+    <!-- GRÁFICOS -->
+    <section id="view-graficos" class="view" hidden>
+      <div class="card">
+        <div class="card-head"><h1>Gráficos</h1></div>
+        <div class="card-body">
+          <h3 class="block-title">Média das notas por tipo de prova</h3>
+          <div class="chart-wrap"><canvas id="areaChart"></canvas></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="block-head">
+            <h3 class="block-title">Provas realizadas por tipo</h3>
+            <div class="filters">
+              <label>Ano <select id="colAno"></select></label>
+              <label>Mês <select id="colMes"></select></label>
+            </div>
+          </div>
+          <div class="chart-wrap"><canvas id="colChart"></canvas></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="block-title">Resultados</h3>
+          <div class="filters wrap">
+            <label class="grow">Buscar nome <input id="lstBusca" type="search" placeholder="Digite um nome…"></label>
+            <label>Tipo <select id="lstTipo"></select></label>
+            <label>Ano <select id="lstAno"></select></label>
+            <label>Mês <select id="lstMes"></select></label>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Nome</th><th>Tipo de prova</th><th>Data</th><th class="num">Nota</th></tr></thead>
+              <tbody id="lstBody"></tbody>
+            </table>
+          </div>
+          <p id="lstCount" class="muted"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERFIS -->
+    <section id="view-perfis" class="view" hidden>
+      <div id="perfisLista">
+        <div class="card">
+          <div class="card-head"><h1>Perfis</h1></div>
+          <div class="card-body">
+            <input id="pfBusca" type="search" class="search-full" placeholder="Pesquisar colaborador…">
+            <div id="pfGrid" class="perfil-grid"></div>
+            <p id="pfCount" class="muted"></p>
+          </div>
+        </div>
+      </div>
+      <div id="perfilDetalhe" hidden></div>
+    </section>
+
+    <!-- ADMINISTRAÇÃO -->
+    <section id="view-administracao" class="view" hidden>
+
+      <div id="loginBox" class="card narrow">
+        <div class="card-head"><h1>Administração</h1></div>
+        <div class="card-body">
+          <form id="loginForm" autocomplete="off">
+            <label class="field">Usuário <span class="req">*</span>
+              <input id="loginUser" type="text" required>
+            </label>
+            <label class="field">Senha <span class="req">*</span>
+              <input id="loginPass" type="password" required>
+            </label>
+            <p id="loginErr" class="error" hidden></p>
+            <button class="btn" type="submit">Entrar</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="adminBox" hidden>
+        <div class="admin-bar">
+          <span>Logado como <strong>Moacir Melchior</strong></span>
+          <button id="logoutBtn" class="btn ghost small">Sair</button>
+        </div>
+
+        <div class="card narrow">
+          <div class="card-head"><h1>Importar provas (JSON)</h1></div>
+          <div class="card-body">
+            <p class="muted">Envie um ou mais arquivos JSON de notas. O sistema lê os nomes, notas e datas, cria os perfis (um por pessoa) e atualiza gráficos e tabelas.</p>
+            <label class="field">Arquivos JSON
+              <input id="impFiles" type="file" accept="application/json,.json" multiple>
+            </label>
+            <div class="row2">
+              <label class="field">Tipo de prova (se o arquivo não informar)
+                <select id="impTipo"></select>
+              </label>
+              <label class="field">Data (se o arquivo não informar)
+                <input id="impData" type="text" inputmode="numeric" placeholder="dd/mm/aaaa" maxlength="10">
+              </label>
+            </div>
+            <div id="impResumo" class="imp-resumo" hidden></div>
+            <button id="impConfirm" class="btn" type="button" hidden>Confirmar importação</button>
+          </div>
+        </div>
+
+        <div class="card narrow">
+          <div class="card-head"><h1>Registrar prova corrigida</h1></div>
+          <div class="card-body">
+            <form id="provaForm" autocomplete="off" novalidate>
+              <label class="field">Nome do colaborador <span class="req">*</span>
+                <input id="fNome" type="text" list="nomesList" required>
+                <datalist id="nomesList"></datalist>
+              </label>
+              <label class="field">Tipo de prova <span class="req">*</span>
+                <select id="fTipo" required></select>
+              </label>
+              <div class="row2">
+                <label class="field">Data da prova <span class="req">*</span>
+                  <input id="fData" type="text" inputmode="numeric" placeholder="dd/mm/aaaa" maxlength="10" required>
+                </label>
+                <label class="field">Nota <span class="req">*</span>
+                  <input id="fNota" type="text" inputmode="decimal" placeholder="XX,X" maxlength="4" required>
+                </label>
+              </div>
+              <label class="field">PDF da prova
+                <input id="fPdf" type="file" accept="application/pdf">
+              </label>
+              <p id="formMsg" class="error" hidden></p>
+              <button class="btn" type="submit">Registrar prova</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h1>Colaboradores</h1></div>
+          <div class="card-body">
+            <input id="colabBusca" type="search" class="search-full" placeholder="Pesquisar colaborador…">
+            <div id="colabList" class="colab-list"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h1>Publicação (GitHub)</h1></div>
+          <div class="card-body">
+            <p id="syncStatus" class="muted"></p>
+            <div class="btn-row">
+              <button id="exportBtn" class="btn ghost">Baixar provas.json</button>
+              <button id="publishBtn" class="btn">Publicar no GitHub</button>
+              <button id="ghConfigBtn" class="btn ghost">Configurar GitHub</button>
+            </div>
+            <div id="ghConfig" class="gh-config" hidden>
+              <label class="field">Repositório (usuario/repositorio)
+                <input id="ghRepo" type="text" placeholder="meuusuario/carmak-provas">
+              </label>
+              <div class="row2">
+                <label class="field">Branch <input id="ghBranch" type="text" placeholder="main"></label>
+                <label class="field">Token (fine-grained, só “Contents: write”)
+                  <input id="ghToken" type="password" autocomplete="new-password">
+                </label>
+              </div>
+              <button id="ghSave" class="btn small">Salvar neste navegador</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/charts3d.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
