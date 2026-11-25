@@ -1,1 +1,986 @@
-[]
+[
+ {
+  "id": "mwtpw4zetu8bq7",
+  "nome": "Kaoma Coelho",
+  "tipo": "TE3",
+  "nota": 9.83,
+  "data": "2025-07-23T17:31",
+  "ini": "2025-07-23T16:52"
+ },
+ {
+  "id": "mwtpw4zezubb50",
+  "nome": "Luiz Carlos Machado",
+  "tipo": "TE3",
+  "nota": 5.33,
+  "data": "2025-09-22T10:16",
+  "ini": "2025-09-22T09:00"
+ },
+ {
+  "id": "mwtpw4zep2zzh4",
+  "nome": "Clemar Rogério Riquetti Junior",
+  "tipo": "TE3",
+  "nota": 7,
+  "data": "2026-02-03T15:26",
+  "ini": "2026-02-03T13:56"
+ },
+ {
+  "id": "mwtpw4zeyaoth7",
+  "nome": "Eder Santin Calgarotto",
+  "tipo": "TE3",
+  "nota": 7.07,
+  "data": "2026-02-17T12:14",
+  "ini": "2026-02-17T11:32"
+ },
+ {
+  "id": "mwtpw4zeg7qbna",
+  "nome": "Jonatas Oliveira de Melo",
+  "tipo": "TE3",
+  "nota": 7.7,
+  "data": "2026-04-14T15:00",
+  "ini": "2026-04-14T13:30"
+ },
+ {
+  "id": "mwtpw4zezfvf39",
+  "nome": "Alexsandro Forchesatto",
+  "tipo": "TE3",
+  "nota": 2.67,
+  "data": "2026-04-27T11:14",
+  "ini": "2026-04-27T09:44"
+ },
+ {
+  "id": "mwtpw4zema22jc",
+  "nome": "Lucas Bortoli",
+  "tipo": "TE3",
+  "nota": 7.03,
+  "data": "2026-04-27T13:43",
+  "ini": "2026-04-27T12:13"
+ },
+ {
+  "id": "mwtpw4zeugzr08",
+  "nome": "Gabriel Tremarin dos Santos",
+  "tipo": "TE3",
+  "nota": 9.67,
+  "data": "2026-05-12T16:44",
+  "ini": "2026-05-12T15:15"
+ },
+ {
+  "id": "mwtpw4zexh2f4j",
+  "nome": "Alan Cesar Batista",
+  "tipo": "TE3",
+  "nota": 8,
+  "data": "2026-06-29T11:35",
+  "ini": "2026-06-29T10:05"
+ },
+ {
+  "id": "mwtpw4zelicguy",
+  "nome": "Alisson dos Santos",
+  "tipo": "TE3",
+  "nota": 8,
+  "data": "2026-09-08T17:35",
+  "ini": "2026-09-08T16:11"
+ },
+ {
+  "id": "mwtpw4ze06vrsa",
+  "nome": "Fabio da Cruz",
+  "tipo": "TE3",
+  "nota": 8.37,
+  "data": "2026-09-25T15:54",
+  "ini": "2026-09-25T14:43"
+ },
+ {
+  "id": "mwtpw4zeisze4v",
+  "nome": "José Rosa",
+  "tipo": "TE3",
+  "nota": 7.03,
+  "data": "2026-10-13T16:57",
+  "ini": "2026-10-13T15:27"
+ },
+ {
+  "id": "mwtq04tqwqydkc",
+  "nome": "Rafael Mattos",
+  "tipo": "TC1",
+  "nota": 5.5,
+  "data": "2025-08-04T13:48",
+  "ini": "2025-08-04T12:48"
+ },
+ {
+  "id": "mwtq04tq33omsu",
+  "nome": "Leonardo Birk",
+  "tipo": "TC1",
+  "nota": 6.33,
+  "data": "2026-02-10T16:29",
+  "ini": "2026-02-10T15:30"
+ },
+ {
+  "id": "mwtq04tqz0982x",
+  "nome": "Alyson Rocha",
+  "tipo": "TC1",
+  "nota": 7.17,
+  "data": "2026-02-11T17:04",
+  "ini": "2026-02-11T16:04"
+ },
+ {
+  "id": "mwtq04tq55hxza",
+  "nome": "Marco Daniel Carlos Marquezoni",
+  "tipo": "TC1",
+  "nota": 7,
+  "data": "2026-03-23T15:13",
+  "ini": "2026-03-23T14:24"
+ },
+ {
+  "id": "mwtq04tqr4ixba",
+  "nome": "Elmo Iuri Santos de Santana",
+  "tipo": "TC1",
+  "nota": 9.07,
+  "data": "2026-04-15T10:38",
+  "ini": "2026-04-15T09:46"
+ },
+ {
+  "id": "mwtq04tqggdu1g",
+  "nome": "Luciano Reinheimer",
+  "tipo": "TC1",
+  "nota": 8.5,
+  "data": "2026-07-13T09:51",
+  "ini": "2026-07-13T08:53"
+ },
+ {
+  "id": "mwtq04tq6gzc9z",
+  "nome": "Jeferson Rodrigues",
+  "tipo": "TC1",
+  "nota": 6.5,
+  "data": "2026-07-13T14:25",
+  "ini": "2026-07-13T13:25"
+ },
+ {
+  "id": "mwtq04tqfq560y",
+  "nome": "Henrique Garcia Felisberto",
+  "tipo": "TC1",
+  "nota": 7.6,
+  "data": "2026-07-17T15:12",
+  "ini": "2026-07-17T14:12"
+ },
+ {
+  "id": "mwtq04tqni4r37",
+  "nome": "Davi Bauer Romera",
+  "tipo": "TC1",
+  "nota": 8.6,
+  "data": "2026-09-04T16:53",
+  "ini": "2026-09-04T15:04"
+ },
+ {
+  "id": "mwtq04tqhi2sr6",
+  "nome": "Gilselly Juan Alexander Gonzalez Reyes",
+  "tipo": "TC1",
+  "nota": 7.83,
+  "data": "2026-09-09T07:48",
+  "ini": "2026-09-09T06:11"
+ },
+ {
+  "id": "mwtq04tqgmpy2c",
+  "nome": "Jorison Macedo Dos Santos",
+  "tipo": "TC1",
+  "nota": 8.17,
+  "data": "2026-09-14T15:38",
+  "ini": "2026-09-14T13:51"
+ },
+ {
+  "id": "mwuxwxmkhaxu6h",
+  "nome": "Anderson Oliveira",
+  "tipo": "TC2",
+  "nota": 6.25,
+  "data": "2026-01-29T09:52",
+  "ini": "2026-01-29T09:06"
+ },
+ {
+  "id": "mwuxwxmkp9qc68",
+  "nome": "Petterson Peirão",
+  "tipo": "TC2",
+  "nota": 4.8,
+  "data": "2026-02-10T15:26",
+  "ini": "2026-02-10T15:00"
+ },
+ {
+  "id": "mwuxwxmk2mmkcy",
+  "nome": "Alexandre Sabino de Souza",
+  "tipo": "TC2",
+  "nota": 7.5,
+  "data": "2026-02-11T19:23",
+  "ini": "2026-02-11T18:48"
+ },
+ {
+  "id": "mwuxwxmkban92o",
+  "nome": "Gabriel de Ávila Schmitt",
+  "tipo": "TC2",
+  "nota": 10,
+  "data": "2026-02-12T12:25",
+  "ini": "2026-02-12T11:44"
+ },
+ {
+  "id": "mwuxwxmky40u86",
+  "nome": "Jonathas Silva Barbosa",
+  "tipo": "TC2",
+  "nota": 7.5,
+  "data": "2026-02-12T13:04",
+  "ini": "2026-02-12T12:05"
+ },
+ {
+  "id": "mwuxwxmk9w02e1",
+  "nome": "Pedro Ivo",
+  "tipo": "TC2",
+  "nota": 8.5,
+  "data": "2026-02-12T13:21",
+  "ini": "2026-02-12T12:40"
+ },
+ {
+  "id": "mwuxwxmkb7oy1x",
+  "nome": "Ariel dos Santos",
+  "tipo": "TC2",
+  "nota": 10,
+  "data": "2026-02-13T18:57",
+  "ini": "2026-02-13T18:35"
+ },
+ {
+  "id": "mwuxwxmkcn6lsq",
+  "nome": "Alvaro Guimarães",
+  "tipo": "TC2",
+  "nota": 9,
+  "data": "2026-02-15T14:39",
+  "ini": "2026-02-15T14:02"
+ },
+ {
+  "id": "mwuxwxmkybdfve",
+  "nome": "Keyser Souza Batista",
+  "tipo": "TC2",
+  "nota": 7.5,
+  "data": "2026-03-04T21:56",
+  "ini": "2026-03-04T21:22"
+ },
+ {
+  "id": "mwuxwxmkbimj5d",
+  "nome": "Átila da Fontoura Drochner",
+  "tipo": "TC2",
+  "nota": 8.1,
+  "data": "2026-03-16T16:50",
+  "ini": "2026-03-16T16:00"
+ },
+ {
+  "id": "mwuxwxmktbdtrh",
+  "nome": "Felipe Cidio Mendes",
+  "tipo": "TC2",
+  "nota": 7.5,
+  "data": "2026-03-18T08:46",
+  "ini": "2026-03-18T08:10"
+ },
+ {
+  "id": "mwuxwxmk0l85x6",
+  "nome": "Marcelo Adriano Calgarotto",
+  "tipo": "TC2",
+  "nota": 9.25,
+  "data": "2026-04-02T16:35",
+  "ini": "2026-04-02T15:35"
+ },
+ {
+  "id": "mwuxwxmkl7jj8j",
+  "nome": "Carlos Javier Tempo Ramirez",
+  "tipo": "TC2",
+  "nota": 8.75,
+  "data": "2026-04-07T17:24",
+  "ini": "2026-04-07T16:31"
+ },
+ {
+  "id": "mwuxwxmk1h0qa5",
+  "nome": "Roberto Emilio",
+  "tipo": "TC2",
+  "nota": 8.75,
+  "data": "2026-04-10T09:06",
+  "ini": "2026-04-10T08:15"
+ },
+ {
+  "id": "mwuxwxmkobulz6",
+  "nome": "Marcelo Cortado",
+  "tipo": "TC2",
+  "nota": 8,
+  "data": "2026-04-17T17:47",
+  "ini": "2026-04-17T17:02"
+ },
+ {
+  "id": "mwuxwxmkjs5rr5",
+  "nome": "Eliezer Vicente Paulino",
+  "tipo": "TC2",
+  "nota": 9.75,
+  "data": "2026-05-13T09:14",
+  "ini": "2026-05-13T08:14"
+ },
+ {
+  "id": "mwuxwxmkhfuyb4",
+  "nome": "Fabio da Cruz",
+  "tipo": "TC2",
+  "nota": 7.1,
+  "data": "2026-05-21T11:51",
+  "ini": "2026-05-21T11:03"
+ },
+ {
+  "id": "mwuxwxmk0zzobh",
+  "nome": "Luis Fernando da Costa",
+  "tipo": "TC2",
+  "nota": 7,
+  "data": "2026-05-21T13:04",
+  "ini": "2026-05-21T12:19"
+ },
+ {
+  "id": "mwuxwxmksrh0c3",
+  "nome": "Danilo Ricardo Gonzaga E Santos",
+  "tipo": "TC2",
+  "nota": 9.75,
+  "data": "2026-05-27T13:48",
+  "ini": "2026-05-27T13:02"
+ },
+ {
+  "id": "mwuxwxmkbprsp1",
+  "nome": "Pedro Paulo Santos Saldanha",
+  "tipo": "TC2",
+  "nota": 10,
+  "data": "2026-06-03T15:39",
+  "ini": "2026-06-03T14:41"
+ },
+ {
+  "id": "mwuxwxmkb2v686",
+  "nome": "Leonardo Birk",
+  "tipo": "TC2",
+  "nota": 10,
+  "data": "2026-07-16T09:59",
+  "ini": "2026-07-16T09:00"
+ },
+ {
+  "id": "mwuxwxmk3i99xa",
+  "nome": "Diego Souza",
+  "tipo": "TC2",
+  "nota": 8.75,
+  "data": "2026-08-03T23:35",
+  "ini": "2026-08-03T23:00"
+ },
+ {
+  "id": "mwuxwxmkvubppb",
+  "nome": "Matheus Silva dos Santos",
+  "tipo": "TC2",
+  "nota": 5.25,
+  "data": "2026-09-11T14:02",
+  "ini": "2026-09-11T13:23"
+ },
+ {
+  "id": "mwuxxneoo8c4jo",
+  "nome": "Daniel de Jesús Gomez López",
+  "tipo": "TC3",
+  "nota": 9,
+  "data": "2025-07-07T10:24",
+  "ini": "2025-07-07T08:26"
+ },
+ {
+  "id": "mwuxxneolpjh6q",
+  "nome": "Felipe dos Santos Pageu",
+  "tipo": "TC3",
+  "nota": 8.67,
+  "data": "2025-09-22T15:38",
+  "ini": "2025-09-22T14:18"
+ },
+ {
+  "id": "mwuxxneo260rz3",
+  "nome": "Leonardo Amâncio Teodoro",
+  "tipo": "TC3",
+  "nota": 7.17,
+  "data": "2025-12-16T15:08",
+  "ini": "2025-12-16T13:38"
+ },
+ {
+  "id": "mwuxxneoecvgwb",
+  "nome": "Eder Santin Calgarotto",
+  "tipo": "TC3",
+  "nota": 7.17,
+  "data": "2026-02-17T11:30",
+  "ini": "2026-02-17T10:41"
+ },
+ {
+  "id": "mwuxxneorf2l99",
+  "nome": "Danilo Almeida Souza",
+  "tipo": "TC3",
+  "nota": 10,
+  "data": "2026-03-19T09:09",
+  "ini": "2026-03-19T07:50"
+ },
+ {
+  "id": "mwuxxneo0uevq5",
+  "nome": "Jonatas Oliveira de Melo",
+  "tipo": "TC3",
+  "nota": 8.1,
+  "data": "2026-04-14T16:33",
+  "ini": "2026-04-14T15:05"
+ },
+ {
+  "id": "mwuxxneo4p4ioh",
+  "nome": "Guilherme Kersting",
+  "tipo": "TC3",
+  "nota": 7,
+  "data": "2026-04-27T10:54",
+  "ini": "2026-04-27T09:24"
+ },
+ {
+  "id": "mwuxxneoiqxssx",
+  "nome": "Leonardo Bernardo Ribeiro",
+  "tipo": "TC3",
+  "nota": 8,
+  "data": "2026-06-12T15:05",
+  "ini": "2026-06-12T14:06"
+ },
+ {
+  "id": "mwuxxneo3egahr",
+  "nome": "Marco Euzebio",
+  "tipo": "TC3",
+  "nota": 9.83,
+  "data": "2026-06-12T15:07",
+  "ini": "2026-06-12T14:07"
+ },
+ {
+  "id": "mwuxxneo6uvl9c",
+  "nome": "Tiago Lopes",
+  "tipo": "TC3",
+  "nota": 8.23,
+  "data": "2026-06-23T10:02",
+  "ini": "2026-06-23T08:35"
+ },
+ {
+  "id": "mwuxxneolhz5n1",
+  "nome": "Rodrigo Alexsandro da Silva",
+  "tipo": "TC3",
+  "nota": 7.17,
+  "data": "2026-07-17T12:01",
+  "ini": "2026-07-17T10:31"
+ },
+ {
+  "id": "mwuxxneo9m6kt9",
+  "nome": "Flavio Ritter",
+  "tipo": "TC3",
+  "nota": 7,
+  "data": "2026-07-17T13:05",
+  "ini": "2026-07-17T11:52"
+ },
+ {
+  "id": "mwuxxneo6133r1",
+  "nome": "Adenilson Novello Mendes",
+  "tipo": "TC3",
+  "nota": 9.33,
+  "data": "2026-07-27T10:10",
+  "ini": "2026-07-27T08:40"
+ },
+ {
+  "id": "mwuxxneoykqfmu",
+  "nome": "Felipe Henz Santana",
+  "tipo": "TC3",
+  "nota": 9.33,
+  "data": "2026-09-11T15:39",
+  "ini": "2026-09-11T14:09"
+ },
+ {
+  "id": "mwuxxneoxrhdj5",
+  "nome": "Petterson Peirão",
+  "tipo": "TC3",
+  "nota": 9,
+  "data": "2026-09-14T09:02",
+  "ini": "2026-09-14T07:36"
+ },
+ {
+  "id": "mwuxy95uw89oit",
+  "nome": "Adriano Braz Silva de Lima",
+  "tipo": "AM2",
+  "nota": 8,
+  "data": "2025-07-10T09:00",
+  "ini": "2025-07-10T08:09"
+ },
+ {
+  "id": "mwuxy95u36gf1r",
+  "nome": "Douglas Eduardo Pessoa",
+  "tipo": "AM2",
+  "nota": 8.25,
+  "data": "2025-07-11T14:19",
+  "ini": "2025-07-11T13:28"
+ },
+ {
+  "id": "mwuxy95utg40og",
+  "nome": "Guilherme da Silva Oliveira",
+  "tipo": "AM2",
+  "nota": 9.25,
+  "data": "2025-07-21T14:45",
+  "ini": "2025-07-21T13:50"
+ },
+ {
+  "id": "mwuxy95ui3d3id",
+  "nome": "Luigi Passold Bortolini",
+  "tipo": "AM2",
+  "nota": 8.5,
+  "data": "2025-08-05T09:24",
+  "ini": "2025-08-05T08:32"
+ },
+ {
+  "id": "mwuxy95u9gzdm0",
+  "nome": "Leonardo Giacomelli",
+  "tipo": "AM2",
+  "nota": 8,
+  "data": "2025-08-11T16:58",
+  "ini": "2025-08-11T15:59"
+ },
+ {
+  "id": "mwuxy95urv8kza",
+  "nome": "João Figueiró",
+  "tipo": "AM2",
+  "nota": 4.5,
+  "data": "2025-08-14T14:10",
+  "ini": "2025-08-14T13:22"
+ },
+ {
+  "id": "mwuxy95uko9n1v",
+  "nome": "Thiago Moura",
+  "tipo": "AM2",
+  "nota": 3.5,
+  "data": "2025-09-12T13:14",
+  "ini": "2025-09-12T12:14"
+ },
+ {
+  "id": "mwuxy95u542jkq",
+  "nome": "Moises de Jesus Gomez Lopez",
+  "tipo": "AM2",
+  "nota": 7,
+  "data": "2026-01-16T12:40",
+  "ini": "2026-01-16T11:44"
+ },
+ {
+  "id": "mwuxy95uv36vv3",
+  "nome": "Gabriel Lima Gonçalves",
+  "tipo": "AM2",
+  "nota": 8.75,
+  "data": "2026-01-22T11:31",
+  "ini": "2026-01-22T10:40"
+ },
+ {
+  "id": "mwuxy95ucxti9e",
+  "nome": "Anderson Gewehr",
+  "tipo": "AM2",
+  "nota": 9,
+  "data": "2026-02-05T06:42",
+  "ini": "2026-02-05T06:13"
+ },
+ {
+  "id": "mwuxy95uxz985k",
+  "nome": "Luiz Felipe dos Santos",
+  "tipo": "AM2",
+  "nota": 6.25,
+  "data": "2026-02-11T15:11",
+  "ini": "2026-02-11T14:48"
+ },
+ {
+  "id": "mwuxy95uscju0e",
+  "nome": "Waldir Costa Ribeiro",
+  "tipo": "AM2",
+  "nota": 8.75,
+  "data": "2026-03-20T08:17",
+  "ini": "2026-03-20T07:23"
+ },
+ {
+  "id": "mwuxy95uq65wq9",
+  "nome": "Nicolas Machado",
+  "tipo": "AM2",
+  "nota": 8.75,
+  "data": "2026-03-23T09:50",
+  "ini": "2026-03-23T09:04"
+ },
+ {
+  "id": "mwuxy95uq3bftn",
+  "nome": "Vinícius Feiden",
+  "tipo": "AM2",
+  "nota": 7,
+  "data": "2026-04-02T12:11",
+  "ini": "2026-04-02T11:11"
+ },
+ {
+  "id": "mwuxy95u9yw9vl",
+  "nome": "Roggero Bortolini",
+  "tipo": "AM2",
+  "nota": 7.25,
+  "data": "2026-06-03T08:45",
+  "ini": "2026-06-03T08:09"
+ },
+ {
+  "id": "mwuxy95uzyqblq",
+  "nome": "Felipe Kaiser Brasil",
+  "tipo": "AM2",
+  "nota": 8.5,
+  "data": "2026-09-10T11:18",
+  "ini": "2026-09-10T10:38"
+ },
+ {
+  "id": "mwuyfbijdm5vnp",
+  "nome": "Elmo Iuri Santos de Santana",
+  "tipo": "AM3",
+  "nota": 8.19,
+  "data": "2025-05-28T16:09",
+  "ini": "2025-05-28T15:22"
+ },
+ {
+  "id": "mwuyfbijks7ikv",
+  "nome": "Daniel Oliveira Kuchle",
+  "tipo": "AM3",
+  "nota": 7.33,
+  "data": "2025-08-22T11:43",
+  "ini": "2025-08-22T10:52"
+ },
+ {
+  "id": "mwuyfbijjwwywq",
+  "nome": "Bruno Dorneles",
+  "tipo": "AM3",
+  "nota": 8.75,
+  "data": "2025-10-22T16:34",
+  "ini": "2025-10-22T15:17"
+ },
+ {
+  "id": "mwuyfbijhcuxbx",
+  "nome": "Yuri Adriel Marmitt Scalcon",
+  "tipo": "AM3",
+  "nota": 8.19,
+  "data": "2025-11-07T10:23",
+  "ini": "2025-11-07T09:01"
+ },
+ {
+  "id": "mwuyfbij3qhkqu",
+  "nome": "Gabriel Tremarin dos Santos",
+  "tipo": "AM3",
+  "nota": 8.61,
+  "data": "2025-12-19T17:49",
+  "ini": "2025-12-19T16:23"
+ },
+ {
+  "id": "mwuyfbijnjvdav",
+  "nome": "Leonardo Giacomelli",
+  "tipo": "AM3",
+  "nota": 9.17,
+  "data": "2026-02-18T11:49",
+  "ini": "2026-02-18T10:19"
+ },
+ {
+  "id": "mwuyfbijh5q6nh",
+  "nome": "Daniel Silva",
+  "tipo": "AM3",
+  "nota": 8.75,
+  "data": "2026-03-17T18:12",
+  "ini": "2026-03-17T16:58"
+ },
+ {
+  "id": "mwuyfbij6fz6sv",
+  "nome": "Luiz Felipe dos Santos",
+  "tipo": "AM3",
+  "nota": 7.64,
+  "data": "2026-03-31T16:55",
+  "ini": "2026-03-31T15:28"
+ },
+ {
+  "id": "mwuyfbij7y3oj7",
+  "nome": "Maurício Gebert",
+  "tipo": "AM3",
+  "nota": 7.5,
+  "data": "2026-05-28T14:41",
+  "ini": "2026-05-28T13:25"
+ },
+ {
+  "id": "mwuyfbijlaij7f",
+  "nome": "Andrey dos Santos da Silva Farias",
+  "tipo": "AM3",
+  "nota": 8.06,
+  "data": "2026-07-17T16:55",
+  "ini": "2026-07-17T16:10"
+ },
+ {
+  "id": "mwuyfbijseh1ah",
+  "nome": "Ezequiel Fernandes de Moraes",
+  "tipo": "AM3",
+  "nota": 9.03,
+  "data": "2026-08-31T13:43",
+  "ini": "2026-08-31T12:34"
+ },
+ {
+  "id": "mwuyfbiju0bno6",
+  "nome": "Dijavan Nepomoceno",
+  "tipo": "AM3",
+  "nota": 8.88,
+  "data": "2026-09-11T10:01",
+  "ini": "2026-09-11T08:31"
+ },
+ {
+  "id": "mwuyfbijowyt59",
+  "nome": "Luciano Júnior",
+  "tipo": "AM3",
+  "nota": 8.33,
+  "data": "2026-09-11T11:21",
+  "ini": "2026-09-11T10:30"
+ },
+ {
+  "id": "mwuyfbijkxerv7",
+  "nome": "Guilherme da Silva Oliveira",
+  "tipo": "AM3",
+  "nota": 8.06,
+  "data": "2026-09-18T11:17",
+  "ini": "2026-09-18T09:47"
+ },
+ {
+  "id": "mwuyfbijilxw5a",
+  "nome": "Kauã Gustavo da Rosa",
+  "tipo": "AM3",
+  "nota": 8.33,
+  "data": "2026-09-21T17:46",
+  "ini": "2026-09-21T16:18"
+ },
+ {
+  "id": "mwuyfbij061zqv",
+  "nome": "Adriano Braz Silva de Lima",
+  "tipo": "AM3",
+  "nota": 8.08,
+  "data": "2026-09-23T14:50",
+  "ini": "2026-09-23T13:23"
+ },
+ {
+  "id": "mwuyfbij40cg7t",
+  "nome": "Anderson Gomes da Costa",
+  "tipo": "AM3",
+  "nota": 9.03,
+  "data": "2026-09-30T13:18",
+  "ini": "2026-09-30T12:13"
+ },
+ {
+  "id": "mwuyfbijpldwny",
+  "nome": "Florindo Theobald",
+  "tipo": "AM3",
+  "nota": 8.22,
+  "data": "2026-10-02T15:09",
+  "ini": "2026-10-02T13:39"
+ },
+ {
+  "id": "mwuyg94an49cy1",
+  "nome": "Gabriel Colombelli",
+  "tipo": "TE2",
+  "nota": 8,
+  "data": "2025-08-14T11:32",
+  "ini": "2025-08-14T09:49"
+ },
+ {
+  "id": "mwuyg94aok5aer",
+  "nome": "Amauri Cendon Garrido",
+  "tipo": "TE2",
+  "nota": 6,
+  "data": "2025-09-12T11:24",
+  "ini": "2025-09-12T09:24"
+ },
+ {
+  "id": "mwuyg94a4lh40e",
+  "nome": "Iago Thomazi",
+  "tipo": "TE2",
+  "nota": 3,
+  "data": "2025-09-22T10:19",
+  "ini": "2025-09-22T09:00"
+ },
+ {
+  "id": "mwuyg94ak06d6p",
+  "nome": "Maicon Batista",
+  "tipo": "TE2",
+  "nota": 4.83,
+  "data": "2025-12-02T15:47",
+  "ini": "2025-12-02T14:43"
+ },
+ {
+  "id": "mwuyg94au0pyjk",
+  "nome": "Willian da Silva Rossato",
+  "tipo": "TE2",
+  "nota": 8,
+  "data": "2026-02-09T23:06",
+  "ini": "2026-02-09T21:36"
+ },
+ {
+  "id": "mwuyg94ae99723",
+  "nome": "Átila da Fontoura Drochner",
+  "tipo": "TE2",
+  "nota": 8.33,
+  "data": "2026-03-30T16:51",
+  "ini": "2026-03-30T15:39"
+ },
+ {
+  "id": "mwuyg94aqktnjh",
+  "nome": "Jessiel Ferreira",
+  "tipo": "TE2",
+  "nota": 8.13,
+  "data": "2026-04-06T10:08",
+  "ini": "2026-04-06T08:38"
+ },
+ {
+  "id": "mwuyg94abb2nsn",
+  "nome": "Marcelo Cortado",
+  "tipo": "TE2",
+  "nota": 5.44,
+  "data": "2026-04-30T10:30",
+  "ini": "2026-04-30T09:00"
+ },
+ {
+  "id": "mwuyg94ay7iis1",
+  "nome": "Fabio da Cruz",
+  "tipo": "TE2",
+  "nota": 5.93,
+  "data": "2026-05-21T16:01",
+  "ini": "2026-05-21T14:31"
+ },
+ {
+  "id": "mwuyg94axthwun",
+  "nome": "Lairto do Nascimento Junior",
+  "tipo": "TE2",
+  "nota": 7.27,
+  "data": "2026-05-30T11:02",
+  "ini": "2026-05-30T09:32"
+ },
+ {
+  "id": "mwuyg94aoqkirx",
+  "nome": "Julio Cesar Bendo",
+  "tipo": "TE2",
+  "nota": 7.5,
+  "data": "2026-06-29T17:35",
+  "ini": "2026-06-29T16:15"
+ },
+ {
+  "id": "mwuyg94aqsa5wo",
+  "nome": "Kaoma Coelho",
+  "tipo": "TE2",
+  "nota": 0,
+  "data": "2026-07-08T22:23",
+  "ini": "2026-07-08T20:53"
+ },
+ {
+  "id": "mwuyg94a2w4zul",
+  "nome": "Nikolas Oliveira",
+  "tipo": "TE2",
+  "nota": 8.17,
+  "data": "2026-07-24T10:08",
+  "ini": "2026-07-24T08:38"
+ },
+ {
+  "id": "mwuyg94aappd2w",
+  "nome": "Marcos Vinícius Renosto",
+  "tipo": "TE2",
+  "nota": 7.17,
+  "data": "2026-07-28T11:09",
+  "ini": "2026-07-28T10:02"
+ },
+ {
+  "id": "mwuyg94am23i1i",
+  "nome": "Rodrigo Faria da Silva",
+  "tipo": "TE2",
+  "nota": 8.33,
+  "data": "2026-09-10T23:22",
+  "ini": "2026-09-10T21:37"
+ },
+ {
+  "id": "mwuyg94azpkqyu",
+  "nome": "Bryan Woiciechowski Rosa",
+  "tipo": "TE2",
+  "nota": 8.67,
+  "data": "2026-10-14T09:07",
+  "ini": "2026-10-14T07:24"
+ },
+ {
+  "id": "mwuyit31xni3zn",
+  "nome": "Rafael Mattos",
+  "tipo": "TE1",
+  "nota": 6.87,
+  "data": "2025-08-11T16:01",
+  "ini": "2025-08-11T15:03"
+ },
+ {
+  "id": "mwuyit31vg036r",
+  "nome": "Alyson Rocha",
+  "tipo": "TE1",
+  "nota": 4.83,
+  "data": "2026-02-11T16:01",
+  "ini": "2026-02-11T15:01"
+ },
+ {
+  "id": "mwuyit31fmehoq",
+  "nome": "Henrique Aguiar",
+  "tipo": "TE1",
+  "nota": 7,
+  "data": "2026-03-20T10:15",
+  "ini": "2026-03-20T09:16"
+ },
+ {
+  "id": "mwuyit315mhyvk",
+  "nome": "Antônio Freitas",
+  "tipo": "TE1",
+  "nota": 7,
+  "data": "2026-04-02T11:18",
+  "ini": "2026-04-02T10:06"
+ },
+ {
+  "id": "mwuyit31ve00oe",
+  "nome": "Bruno Dorneles",
+  "tipo": "TE1",
+  "nota": 9.33,
+  "data": "2026-04-07T11:16",
+  "ini": "2026-04-07T09:24"
+ },
+ {
+  "id": "mwuyit31bxc3s7",
+  "nome": "Wellington Lorenzetti",
+  "tipo": "TE1",
+  "nota": 7.33,
+  "data": "2026-04-27T15:10",
+  "ini": "2026-04-27T13:28"
+ },
+ {
+  "id": "mwuyit31camkls",
+  "nome": "Marcelo Bondan Da Silva",
+  "tipo": "TE1",
+  "nota": 7.1,
+  "data": "2026-04-27T15:03",
+  "ini": "2026-04-27T13:33"
+ },
+ {
+  "id": "mwuyit3127hwxq",
+  "nome": "Guilherme de Vargas da Silva",
+  "tipo": "TE1",
+  "nota": 8.67,
+  "data": "2026-04-27T17:50",
+  "ini": "2026-04-27T16:07"
+ },
+ {
+  "id": "mwuyit31tl9bvo",
+  "nome": "João Figueiró",
+  "tipo": "TE1",
+  "nota": 7.17,
+  "data": "2026-04-28T13:18",
+  "ini": "2026-04-28T12:22"
+ },
+ {
+  "id": "mwuyit31ous76c",
+  "nome": "Eduardo José Scopel",
+  "tipo": "TE1",
+  "nota": 7,
+  "data": "2026-05-28T16:18",
+  "ini": "2026-05-28T15:16"
+ },
+ {
+  "id": "mwuyit31672dlq",
+  "nome": "Leonardo Birk",
+  "tipo": "TE1",
+  "nota": 6.33,
+  "data": "2026-08-04T17:35",
+  "ini": "2026-08-04T16:20"
+ },
+ {
+  "id": "mwuyit317xlmfa",
+  "nome": "Cloacir Guylherme Rodrigues Cavalheiro",
+  "tipo": "TE1",
+  "nota": 9.57,
+  "data": "2026-10-03T10:10",
+  "ini": "2026-10-03T08:37"
+ }
+]
